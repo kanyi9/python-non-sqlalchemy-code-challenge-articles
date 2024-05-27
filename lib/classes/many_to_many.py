@@ -132,8 +132,6 @@ print (article1.author.name)
 Magazine_by_1 = author1.magazines()
 magazine_names = [magazine.name for magazine in Magazine_by_1]
 
-print(magazine_names)
 
 
-print(f"Author1: {author1.name}, Articles: {[article.title for article in author1.articles()]}")
-print(f"Magazine2: {magazine2.name}, Articles: {[article.title for article in magazine2.articles()]}")
+
